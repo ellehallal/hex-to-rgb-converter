@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Hex colour background changer</title>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
-  <body>
+  <title>Hex colour background changer</title>
+</head>
+
+<body>
+  <div id="container">
+
+
     <header>
       <h1>Hex colour background changer</h1>
       <p id="tagline">Enter the hex colour below to change the background:</p>
@@ -20,19 +24,21 @@
     <section id="hexchanger">
       <input type="text" class="" id="inputhex" maxlength="7" value="" placeholder="#FFFFFF">
       <input type="button" value="Change colour" id="buttoncolour">
-
-      <!-- <input type="color" name="mycolour" value=""> -->
-
     </section>
 
 
 
     <footer>
+      <p>By Elle J.</p>
+      <p><a href="https://github.com/itsellej" target="_blank"><img class="icons" src="https://res.cloudinary.com/itsellej/image/upload/v1533400136/rock-paper-scissors/github-icon.png" alt="Github icon"></a>
+        <a href="https://codepen.io/itsellej/" target="_blank"><img class="icons" src="https://res.cloudinary.com/itsellej/image/upload/v1533400135/rock-paper-scissors/codepen-icon.png" alt="Codepen icon"></a></p>
+      <p><em>Credit - icons from <a href="https://pngtree.com/">pngtree</a></em></p>
 
     </footer>
+  </div>
 
 
-    <script src="main.js" charset="utf-8"></script>
-  </body>
+  <script src="main.js" charset="utf-8"></script>
+</body>
 
 </html>
