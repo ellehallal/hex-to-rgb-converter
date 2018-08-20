@@ -9,6 +9,7 @@ body{
 
 h1{
   text-transform: capitalize;
+  color: #FFA200;
 }
 
 #container{
@@ -16,7 +17,7 @@ h1{
   background-color: white;
   padding: 1%;
   width: 50%;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 
 header{
@@ -37,11 +38,25 @@ input[type=text] {
   height: auto;
   font-size: 1rem;
   font-family: inherit;
+  margin-bottom: 2%;
 
+}
+
+#resultr{
+  color: red;
+}
+
+#resultg{
+  color: green;
+}
+
+#resultb{
+  color: blue;
 }
 
 hr{
   width: 70%;
+  margin-bottom: 5%;
 }
 
 footer{
@@ -50,6 +65,7 @@ footer{
   line-height: 0.2rem;
 }
 
-.icons{
-  max-width: 25px;
-  height: auto;
+.fab{
+  color: #FFA200;
+  margin: 0 .5%;
+}
