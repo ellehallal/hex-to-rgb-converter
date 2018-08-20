@@ -1,7 +1,6 @@
 const hexInput = document.querySelector('input[type="text"]');
 const submitColour = document.getElementById('buttoncolour');
-const result1 = document.querySelector('#result1');
-const hex = document.querySelector('#hex');
+
 const resultr = document.querySelector('#resultr');
 const resultg = document.querySelector('#resultg');
 const resultb = document.querySelector('#resultb');
