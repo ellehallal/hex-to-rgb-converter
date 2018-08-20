@@ -18,17 +18,22 @@
 
 
     <header>
-      <h1>Hex colour background changer</h1>
-      <p id="tagline">Enter the hex colour below to change the background:</p>
+      <h1>Hex to RGB converter</h1>
+      <p id="tagline">Enter the hex colour:</p>
     </header>
 
     <section id="hexchanger">
-      <input type="text" id="inputhex" maxlength="7" value="" placeholder="#FFFFFF">
-      <input type="button" value="Change colour" id="buttoncolour">
+      <div>
+        <input type="text" id="inputhex" maxlength="7" value="" placeholder="e.g. #FFFFFF">
+      </div>
+
+      <div>
+        <input type="button" value="Change colour" id="buttoncolour">
+      </div>
     </section>
 
     <section id="hexrgb">
-      <p>Your hex colour converted to RGB: </p>
+      <p>Your hex colour converted to RGB is: </p>
       <p>R: <span id="resultr">-</span> G: <span id="resultg">-</span> B: <span id="resultb">-</span></p>
     </section>
 
